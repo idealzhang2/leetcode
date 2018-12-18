@@ -226,29 +226,8 @@ public class Skyline {
 			p.x = tem;
 			p.hight = 0;
 			initlist.add(p);
-		}
-		
-//		//delete the repeat elements
-//		for(int i = 0; i < initlist.size();i++) {
-//			point p = initlist.get(i);
-////			if(i+1 < initlist.size()) {
-////				if(initlist.get(i+1).x == p.x && initlist.get(i+1).hight == p.hight) {
-////					initlist.remove(i+1);
-////				}else {
-////					i += 1;
-////				}
-////			}else {
-////				break;
-////			}
-//			for(int j = 0; j < i;j++) {
-//				point pp = initlist.get(j);
-//				if(pp.x == p.x) {
-//					initlist.remove(p);
-//					break;
-//				}
-//			}
-			
-		//}
+		}		
+
 		// init the point list with the max between x and x+1
 		for(int[] item: buildings) {
 			for(point p:initlist) {
