@@ -181,6 +181,7 @@ public class Skyline {
 //		for(point p:initlist) {
 //			System.out.println(p.x+"  "+p.hight);
 //		}
+		
 		//combine  neighbors with the same hight
 		
 		for(int i = 0; i < initlist.size();i++) {
