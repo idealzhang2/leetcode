@@ -55,7 +55,7 @@ public class Start {
 		//int[] stones = {0,1,2,3,4,8,9,11};
 		//int[] stones = {0,2};
 		FrogPassRiver  p = new FrogPassRiver();
-		System.out.println(p.canCross_second(stones));
+		System.out.println(p.canCross_third(stones));
 		
 	}
 
